@@ -1,0 +1,75 @@
+HTML- Structuring, Markup Language. Used to add and struture elements in a web page.
+HTML- Hyper Text Markup Language.
+
+boiler plate---> Basic Development setup of HTML.
+
+<!Doctype> we are using latest version of HTML.
+
+Tag---> <> </> void   
+        <> null void
+
+
+
+
+Typography tags
+____________________
+
+heading tags---> h1,h2,....h6.
+
+paragraph--->p
+
+bold--> b
+
+strong---> strong
+
+italic---. i 
+
+break---> br
+
+Horizontal Line----> hr
+
+
+
+Common tags 
+____________________
+
+anchor---> a (href---> Hyper Reference target--->blank or same)
+
+Ordered List---> ol>li
+
+image ---> used to add image in web flow...!(img)
+
+
+
+Forms
+____________________
+
+To get data from the visitors.
+
+<form> </form>
+
+
+Input ---> text, password, email, number, range, date, time, (chechbox, radio), color, submit, reset.
+
+placeholder,
+<label for=""></label>   for value must math the value of name attribute in the deserved input tag.
+
+required.
+
+
+
+Table
+____________________
+
+Row and colomn
+
+heading
+body
+
+table,thead,tbody,tr,th,td.
+
+
+thead-Table head
+tbody-Table Body 
+tr-Table Row 
+td-Table Data.
