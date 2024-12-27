@@ -62,7 +62,6 @@ Table
 ____________________
 
 Row and colomn
-
 heading
 body
 
@@ -73,3 +72,4 @@ thead-Table head
 tbody-Table Body 
 tr-Table Row 
 td-Table Data.
+
