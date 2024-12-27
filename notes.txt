@@ -67,9 +67,32 @@ body
 
 table,thead,tbody,tr,th,td.
 
-
 thead-Table head
 tbody-Table Body 
 tr-Table Row 
 td-Table Data.
 
+
+CSS
+____________________
+
+Cascading Style Sheet.
+
+Purpose: Adding Style to HTML page.
+
+
+selector{
+        property: value;
+}
+
+
+
+Inserting CSS to HTML:
+
+1)Internal--- <style> inside <head>
+2)External--- we should create external css file in the same directory
+3)Inline--- inside the tag itself using "style" attribute.
+
+
+
+css will prioritize the inline css more than anything.
