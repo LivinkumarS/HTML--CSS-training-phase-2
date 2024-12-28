@@ -96,3 +96,24 @@ Inserting CSS to HTML:
 
 
 css will prioritize the inline css more than anything.
+
+
+Types of selectors
+________________________
+
+universal selector ---- used to select all the elements in HTML (*).
+
+tagname selector ---- used to select elements by their tag name.(p,h1,ul,li...)
+
+classname selector ---- using special attribute called class. (.) a tag can have multiple class names and one class name can be given to multiple tags.
+
+id name selector --- using special attribute called id. (#) a tag can have only one id. then the id should not be repeated again
+
+
+**css will prioritize more specifications**
+
+inline > id > class > tag > *
+
+
+multiple and psuedo selectors
+________________________________
