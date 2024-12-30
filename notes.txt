@@ -114,6 +114,47 @@ id name selector --- using special attribute called id. (#) a tag can have only 
 
 inline > id > class > tag > *
 
+ctrl+shift+i---> open developer tools.
 
-multiple and psuedo selectors
+Basic Properties of CSS
 ________________________________
+
+units for measuring the distance
+____________________________________
+
+px,cm,inch,%,vw,vh.
+
+constants
+-----------
+px--> 0.26mm
+cm-->10mm
+inch
+
+variables
+------------
+%---> percentage (value/100) 90%--->(90/100*(parent width))
+vw---> visual width 1vw-100vw. 20vw---> (20% of the whole screens width). the percentage of the container acoording to the whole screen's width
+vh---> visual height 1vh-100vh. 20vh---> (20 % of the whole screen's height).
+
+Dimensions properties
+==============
+1)width
+2)height
+
+color properties
+____________________
+1)background-color  ---> color's name, hex values, rgb colors
+2)color --> text color
+
+
+Typography properties
+________________________
+
+1)font-size.
+2)font-weight.
+3)font-family.
+4)font-style.
+5)text-align.---used to justify the content.
+
+
+responsive--->
