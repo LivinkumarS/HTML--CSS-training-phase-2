@@ -162,3 +162,13 @@ ____________________
 
 border -----> outer-line (border)
 padding---> space between the contents and the outerline
+margin ---> is the outer space that seperates the container fro other containers
+
+
+tips: for margin and padding.
+
+property: all direction; one value
+
+property: top,bottom(vertical) right,left(horizontal) ;  two values
+
+property: top right bottom left ; four values

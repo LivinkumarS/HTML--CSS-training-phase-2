@@ -1,7 +1,4 @@
 .pratap {
-  
-
-
   width: fit-content;
   height: fit-content;
   background-color: yellow;
@@ -15,5 +12,52 @@
   padding-bottom: 50px;
   padding-right: 10px;
 
+  /* Margin  */
+
+  /* margin: 20px; */
+
+  margin-bottom: 40px;
 }
 
+.surya {
+  width: fit-content;
+  height: fit-content;
+  background-color: yellow;
+
+  /* padding: 20px; */
+
+  border: 1px solid black;
+
+  /* padding-top: 20px;
+  padding-left: 10px;
+  padding-bottom: 50px;
+  padding-right: 10px; */
+
+  padding: 10px  20px 50px 5px;
+
+  /* margin-right: 40px;
+  margin-top: 20px; */
+}
+
+
+
+.idcard{
+  width: 300px;
+  height: 300px;
+  background-color: aqua;
+  padding: 20px;
+  margin: 30px auto;
+  text-align: center;   /*it will align contents like text, img, videos*/
+
+}
+
+.id-image{
+  width: 50%;  /* 50% of i's parent's width */  
+}
+
+.details{
+  width: 70%; 
+  padding: 10px; 
+  background-color: white;
+  margin: auto;  /* for containers*/
+}
