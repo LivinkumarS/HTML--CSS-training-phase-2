@@ -161,3 +161,4 @@ Box Modelling  ---> seperating the contents in webpage as a individual boxes.
 ____________________
 
 border -----> outer-line (border)
+padding---> space between the contents and the outerline

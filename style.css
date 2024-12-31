@@ -1,14 +1,19 @@
 .pratap {
-  width: 900px;
-  height: 300px;
+  
+
+
+  width: fit-content;
+  height: fit-content;
   background-color: yellow;
 
-  /* border-width: 1px;
-  border-color: red;
-  border-style: dotted; */
+  /* padding: 20px; */
 
-  border: 1px black solid;  
+  border: 1px solid black;
 
-  /* border-top: 1px solid black;
-  border-bottom: 1px solid red; */
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-bottom: 50px;
+  padding-right: 10px;
+
 }
+
