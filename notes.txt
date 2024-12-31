@@ -82,7 +82,7 @@ Purpose: Adding Style to HTML page.
 
 
 selector{
-        property: value;
+        property: value (unit);
 }
 
 
@@ -157,4 +157,7 @@ ________________________
 5)text-align.---used to justify the content.
 
 
-responsive--->
+Box Modelling  ---> seperating the contents in webpage as a individual boxes.
+____________________
+
+border -----> outer-line (border)
