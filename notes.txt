@@ -193,3 +193,20 @@ offset-y: how much distance the shadow should be away from the container vertica
 blur-radius: the amout of blur of the shadow
 spread-radius: the size of shadow.
 color: the shadow's color.
+
+
+
+Combination of selectors
+________________________
+
+descendant selector--->   (space)   example: parents are ascendent childen are descendent.  every tags that are inside the ascendent tag
+
+selector selector{
+
+}
+
+direct descendant selector--->  (>) 
+
+group selector
+
+psuedo-selectors

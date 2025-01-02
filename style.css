@@ -1,4 +1,4 @@
-.idcard{
+.idcard {
   width: 200px;
   height: 300px;
   /* border: 2px solid black; */
@@ -6,18 +6,23 @@
   margin: 30px auto;
   border-radius: 10px;
   box-shadow: 3px 3px 10px 0px black;
-  text-align: center;   /*it will align contents like text, img, videos*/
+  text-align: center; /*it will align contents like text, img, videos*/
 }
 
-.id-image{
+.id-image {
   border-radius: 10px;
-  width: 50%;  /* 50% of i's parent's width */  
+  width: 50%; /* 50% of i's parent's width */
 }
 
-.details{
-  width: 70%; 
-  padding: 10px; 
+.details {
+  width: 70%;
+  padding: 10px;
   background-color: white;
-  margin: auto;  /* for containers*/
+  margin: auto; /* for containers*/
   font-size: small;
+}
+
+
+.idcard>p{
+  color: blueviolet;
 }
