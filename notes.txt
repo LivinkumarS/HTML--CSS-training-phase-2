@@ -172,3 +172,24 @@ property: all direction; one value
 property: top,bottom(vertical) right,left(horizontal) ;  two values
 
 property: top right bottom left ; four values
+
+
+
+Border-radius
+____________________
+
+border-radius: ;
+
+used to make cured edge.(px, %).
+
+
+Box Shadow.
+____________________
+
+box-shadow: offset-x offset-y blur-radius spread-radius color ;
+
+offset-x: how much distance the shadow should be away from the container Horizontally(positive for right, negative for left)
+offset-y: how much distance the shadow should be away from the container vertically(positive for bottom, negative for top)
+blur-radius: the amout of blur of the shadow
+spread-radius: the size of shadow.
+color: the shadow's color.
