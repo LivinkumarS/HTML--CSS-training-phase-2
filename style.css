@@ -23,6 +23,15 @@
 }
 
 
-.idcard>p{
-  color: blueviolet;
+
+.details>h1::first-letter{
+  font-size: 50px;
+  color: aqua;
+  background-color: red;
+}
+
+
+body>input::placeholder{
+  color: aqua;
+  font-size: medium;
 }

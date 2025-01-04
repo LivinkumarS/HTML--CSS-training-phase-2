@@ -199,14 +199,43 @@ color: the shadow's color.
 Combination of selectors
 ________________________
 
-descendant selector--->   (space)   example: parents are ascendent childen are descendent.  every tags that are inside the ascendent tag
+descendant selector--->   (space)   example: parents are ascendent childen are descendent.  every tags that are inside the ascendent tag (
+        A descendant is any element that is nested within another element, at any depth.
+)
 
 selector selector{
 
 }
 
-direct descendant selector--->  (>) 
+direct descendant selector--->  (>) (A direct descendant is an element that is an immediate child of a parent.)
 
-group selector
 
-psuedo-selectors
+group selector----> allows you to apply same css properties to multiple elements.
+
+psuedo-selectors---> allows you to target the elements based on it's state and position or other characteristics that are not directly defined in HTML.
+
+Hover----> targets the selector when the mouse hovers over it.
+(:hover)
+
+
+nth-child----> targets the nth child of parent.(:nth-child())
+
+first-letter---> selects the first letter of the element.
+(::first-letter)
+
+placeholder---> selects the placeholder text.(::placeholder)
+
+focus--->  targets element when it gets focused.(:focos)
+
+Before , After---> See it in further class.
+
+
+
+Positioning
+____________________
+
+static,
+relative,
+absolute,
+fixed,
+sticky.
