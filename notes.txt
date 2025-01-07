@@ -234,8 +234,15 @@ Before , After---> See it in further class.
 Positioning
 ____________________
 
-static,
-relative,
+used to  position elements in a webpage.
+
+
+{
+        position: value;
+}
+
+static--default position.
+relative --- used to move the element relative to it's original position
 absolute,
 fixed,
 sticky.
