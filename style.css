@@ -11,14 +11,39 @@
   margin: 40px auto;
 }
 
-.container > div {
-  width: 50%;
-  height: 25%;
+.container > *:nth-child(1) {
+  position: absolute;
+
+  top: 0; 
+  left: 0;
+
+  width: 100px;
+  height: 100px;
   background-color: aqua;
+  border: 1px solid black;
 }
 
-.container > div:nth-child(2),
-.container > div:nth-child(4) {
-  position: relative;
-  left: 50%;
+.container > *:nth-child(2) {
+
+  top: 0;
+  right: 0;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border: 1px solid black;
+}
+
+.container > *:nth-child(3) {
+  position: absolute;
+
+
+  bottom: 10%;  /*10% of nearest ancestors height*/
+  left: 50%;  /*50% of nearest ancestors width*/
+
+
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border: 1px solid black;
 }

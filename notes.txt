@@ -196,6 +196,7 @@ color: the shadow's color.
 
 
 
+
 Combination of selectors
 ________________________
 
@@ -231,6 +232,10 @@ Before , After---> See it in further class.
 
 
 
+
+Z-index: value--> -999 to 999.
+
+
 Positioning
 ____________________
 
@@ -242,7 +247,13 @@ used to  position elements in a webpage.
 }
 
 static--default position.
-relative --- used to move the element relative to it's original position
-absolute,
+
+relative --- used to move the element relative to it's original position---(positioned ancestor).
+
+absolute--- used to position an element according to it's (nearest positioned ancestor).
+1)z-index change. element will move front of the screen. z-index value as 1.
+2)it will position the element on the top left corner of the ( parent )container by default.
+
 fixed,
+
 sticky.
