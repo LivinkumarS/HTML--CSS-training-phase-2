@@ -5,26 +5,9 @@
 }
 
 .container {
-  position: relative;
-  width: 250px;
-  height: 200px;
-  background-color: #3c3f42;
-  border-radius: 10px;
-  text-align: center;
-  color: aliceblue;
-  margin: 10px auto;
-
-}
-
-.container img {
-  margin-top: 40px;
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-}
-
-.container > h3 {
-  position: absolute;
-  left: 10px;
-  bottom: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  position: sticky;
+  top: 0;
 }

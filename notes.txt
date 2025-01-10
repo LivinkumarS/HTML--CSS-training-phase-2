@@ -254,6 +254,6 @@ absolute--- used to position an element according to it's (nearest positioned an
 1)z-index change. element will move front of the screen. z-index value as 1.
 2)it will position the element on the top left corner of the ( parent )container by default.
 
-fixed,
+fixed ---- the element will be removed from document flow and positioned relative to the screen. the element is fixed when we scroll.
 
-sticky.
+sticky --- hybrid of relative and fixed positioning.
