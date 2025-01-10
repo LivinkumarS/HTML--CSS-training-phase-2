@@ -256,4 +256,20 @@ absolute--- used to position an element according to it's (nearest positioned an
 
 fixed ---- the element will be removed from document flow and positioned relative to the screen. the element is fixed when we scroll.
 
-sticky --- hybrid of relative and fixed positioning.
+sticky --- Combination of relative and fixed positioning.
+
+
+Transform
+____________________
+
+syntax:{transform: value}
+
+allows to visually manipulate the elements by rotating, scaling, translating.
+
+translate---> moves the elements along the X and Y axis.
+
+1)translate---moves element horizontally and Vertically.
+2)Rotate--> clockwise anti clockwise rotation
+3)rotateX,rotateY---> 3D rotations.
+
+4)scale-->changes the size of the element
