@@ -4,38 +4,15 @@
   margin: 0;
   outline: 0;
 }
+.container{
+  border: 1px solid gray;
+  padding: 10px;
+  width: 400px;
 
-.cont{
-  background-color: aquamarine;
-  height: 100px;
+}
+
+
+.container>img{
   width: 200px;
-  display: inline;
-}
-
-.cont1{
-  background-color: gray;
-  height: 100px;
-  display: inline;
-}
-
-span{
-  background-color: blue;
-  display: block;
-  width: 100px;
-  height: 100px;
-}
-
-p{
-  border: 1px solid black;
-  display: inline-block;
-  width: 300px;
-  height: 300px;
-}
-
-
-img{
-  /* display: block; */
-  width: 300px;
-  height: 300px;
-
+  float:left;
 }

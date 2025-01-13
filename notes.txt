@@ -293,4 +293,21 @@ syntax:
 display: value;  
 
 
-inline-block: width and height can be given like block elements. it will no start a new line like inline elements
+inline-block: width and height can be given like block elements. it will no start a new line like inline elements.
+
+
+none
+
+
+
+
+visibility:hidden;
+
+
+
+
+
+Float property:
+____________________
+
+float property is used to position the element by floating them to left or right. allowing other contents wrap around it.
