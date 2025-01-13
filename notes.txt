@@ -273,3 +273,24 @@ translate---> moves the elements along the X and Y axis.
 3)rotateX,rotateY---> 3D rotations.
 
 4)scale-->changes the size of the element
+
+
+
+Display Properties:
+____________________
+
+Blocks,
+Inline,
+
+Inline-Blocks.
+
+Blocks----> will start a new line and occupy the full width in default. Example: (div, p...h1 to h6, ul ol, li)
+
+Inline Type---> elements do not start new line only occupies as much as width needed.(can't set width or height).example: a, img, button, label, span, input.
+
+
+syntax:
+display: value;  
+
+
+inline-block: width and height can be given like block elements. it will no start a new line like inline elements
