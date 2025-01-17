@@ -311,3 +311,33 @@ Float property:
 ____________________
 
 float property is used to position the element by floating them to left or right. allowing other contents wrap around it.
+
+
+
+Flex Box:
+____________________
+
+it is a layout model that provides an efficient way to distribute space and align items within a container.
+
+main axis and cross axis.
+
+display: flex; that enables flex box to the container
+
+flex-direction: row, column...;  defines main axis and cross axis then align items towords it.(row)
+
+gap: used to create a gap b/w items.
+
+Main axis
+==========
+justify-content: start, end, center, space-between, ;  this is used to position the items through the main axis.
+
+Cross axis
+==========
+align-items: center, end , start, stretch; this is used to position the items through the cross axis.(stretch)
+
+
+
+Flex   -->  only to the child.
+____________________
+
+used to mention the grow ratio. 2:2:2 ---> (ratio) empty spaces (5)

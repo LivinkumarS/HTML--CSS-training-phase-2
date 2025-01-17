@@ -6,13 +6,39 @@
 }
 .container{
   border: 1px solid gray;
-  padding: 10px;
-  width: 400px;
+  height: 500px;
+
+  display: flex;
+  flex-direction: row;  /* defines main and cross axis to the container */
+
+  align-items: center;  /* cross axis default is stretch */
+
+  justify-content: space-around;  /* main axis default is start */
+
+  gap: 20px;
 
 }
 
 
-.container>img{
-  width: 200px;
-  float:left;
+.box{
+  /* width: 100px; */
+  /* height: 100px; */
+  font-size: larger;
+  font-weight: bolder;
+  background-color: aqua;
+}
+
+.box1{
+  flex: 2;
+  min-height: 200px;
+}
+
+.box2{
+  flex: 2;
+  min-height: 100px;
+}
+
+.box3{
+  flex: 2;
+  min-height: 400px;
 }
