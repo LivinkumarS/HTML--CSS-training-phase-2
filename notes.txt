@@ -341,3 +341,9 @@ Flex   -->  only to the child.
 ____________________
 
 used to mention the grow ratio. 2:2:2 ---> (ratio) empty spaces (5)
+
+
+Flex-wrap--> defines whether the contents wrap onto nextline or not.
+
+flex-wrap: wrap,nowrap; (nowrap)
+
