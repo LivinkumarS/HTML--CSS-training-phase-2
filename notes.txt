@@ -347,3 +347,15 @@ Flex-wrap--> defines whether the contents wrap onto nextline or not.
 
 flex-wrap: wrap,nowrap; (nowrap)
 
+
+Grid:
+____________________
+
+A powerful layout system designed to create 2D(two dimensional) layouts on webpage.it allows you to arrange items in rows and columns.
+
+display:grid; to enable grid layout.
+grid-template-columns:  ; to assign  width to the tenplate columns
+grid-template-rows:  ; to assign  height to the tenplate rows
+grid-auto-rows:  ; to assign  height to the additional rows
+
+gap. row-gap, column-gap.
