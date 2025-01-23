@@ -358,4 +358,14 @@ grid-template-columns:  ; to assign  width to the tenplate columns
 grid-template-rows:  ; to assign  height to the tenplate rows
 grid-auto-rows:  ; to assign  height to the additional rows
 
+
+
 gap. row-gap, column-gap.
+
+
+
+For Childs:
+-------------
+
+grid-column and grid-row: defines the where the child should start and where should it end.
+
