@@ -369,3 +369,28 @@ For Childs:
 
 grid-column and grid-row: defines the where the child should start and where should it end.
 
+
+
+Media Queiries
+____________________
+
+It is used to apply styles conditionally, based on  specific characteritics of the viewport.
+
+Allowing the website to adopt various screen sizes.
+
+
+syntax:
+____________________
+
+@media (condition){
+        
+}
+
+
+combination of conditions: and
+
+conditions:
+____________________
+
+max-width: value
+min-width: value
