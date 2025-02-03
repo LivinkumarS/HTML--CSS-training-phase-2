@@ -394,3 +394,70 @@ ____________________
 
 max-width: value
 min-width: value
+
+
+
+
+
+
+
+
+JavaScript
+____________________ programming language.
+
+JS versatile and high-level programming and interpreted language.
+
+
+human readable code---> byte code.
+
+
+Used in websites to enhance the experience of static.
+
+Dynamically Typed Language.
+
+Setting Up Development Environment
+____________________________________
+
+.js---> is the extexsion fo JavaScript.
+
+
+commenting---> //
+
+
+Syntax of JavaScript:
+________________________________
+
+";" use this symbol to terminate a statement
+
+
+DataType:
+____________________
+
+1)Number----> (Int, float). 0,1,2....-1,-2,-3,....  0.5,5.6.....
+2)String----> (character, word or sentence). "" or ''. char-->'a','b'.."yes","no","I love you".
+3)boolean----> true or false.(1 or 0)
+
+4)functions
+5)objects
+6)undefined
+7)Nan
+8)Null
+
+
+Variables
+____________________
+
+a container used to store any one of the datatypes.
+
+Initiating Variable in JS:(3 keywords).
+------------------------------------------
+
+let,----   the data inside it can be changed(mutable)
+var,----   the data inside it can be changed(mutable)
+const.--   cannot be changed(immutable)
+
+
+Alert
+____________________
+
+alert()
