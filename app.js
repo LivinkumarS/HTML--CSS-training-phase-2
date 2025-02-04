@@ -37,5 +37,5 @@ const str = "banana and apple I would love to eat";
 let newStr = str.slice(8, 17);
 console.log(newStr);
 
-console.log(newStr.toLocaleLowerCase());
+console.log(newStr.toLowerCase());
 console.log(newStr.toUpperCase());
