@@ -456,8 +456,55 @@ let,----   the data inside it can be changed(mutable)
 var,----   the data inside it can be changed(mutable)
 const.--   cannot be changed(immutable)
 
+Index Number
+____________________
+
+starts with zero and goes as log as the length of the variable
+
 
 Alert
 ____________________
 
 alert()
+
+String Operations 
+____________________
+
+concatination (+)
+-----------------
+
+attaching, adding. we use it to add to strings.
+
+Length
+---------
+.length()
+
+length
+------------
+
+console.log(first_name.length);
+
+Slicing
+-----------
+
+
+
+Operations
+____________________
+
+Arithmetic Operation: +,-,*,/,%
+
+addition--> operator="+", operants=the numbers.  (1+2)
+subtraction--> operator="-", operants=the numbers.  (1-2)
+mul--> operator="*", operants=the numbers.  (1*2)
+div--> operator="/", operants=the numbers.  (1/2)
+reminder--> operator="%", operants=the numbers.  (1%2).
+
+
+Increment and Decremant
+________________________________
+
+a=a+1
+
+++a---> [pre increment]---> increment and assignmemnt
+a++---> [post increment]---> assignment and increment
