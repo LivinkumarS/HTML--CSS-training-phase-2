@@ -22,9 +22,9 @@ console.log("c:", c);
 let first_name = "pratap";
 let last_name = "pojari";
 
-let name = first_name + " " + last_name;
+let fullname = first_name + " " + last_name;
 
-console.log(name);
+console.log(fullname);
 
 //length
 
@@ -36,3 +36,6 @@ const str = "banana and apple I would love to eat";
 
 let newStr = str.slice(8, 17);
 console.log(newStr);
+
+console.log(newStr.toLocaleLowerCase());
+console.log(newStr.toUpperCase());

@@ -487,6 +487,13 @@ console.log(first_name.length);
 Slicing
 -----------
 
+slice(start index, end index)
+
+Case
+-----------------
+.uppercase()
+.lowerscase()
+
 
 
 Operations
