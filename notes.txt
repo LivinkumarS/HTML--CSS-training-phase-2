@@ -515,3 +515,17 @@ a=a+1
 
 ++a---> [pre increment]---> increment and assignmemnt
 a++---> [post increment]---> assignment and increment
+
+
+Logical Operations
+____________________
+
+it performs Operations with boolean(true or false) and returns a boolean value.
+
+AND(&&)---> it will result true when both values are true, or false.
+OR(||)----> true---> atleast one should be true. false---> both should be false.
+NOT(!)----> it works with only one boolean value---> reverse the value
+X-OR(^)---> if both values are same---> flase, else --> true
+
+NOT>AND>OR--->prioritization
+
