@@ -1,10 +1,9 @@
-let a = true;
-let b = false;
-let c = true;
+let a = "10"; //number
+let b = "10"; //string
 
-// console.log(a && b);
-// console.log(a || b);
-// console.log(a ^ b);
-// console.log(!b);
+// console.log(a==b);
 
-console.log(!a || !b || !c);
+let c = 15;
+let d = 14;
+
+console.log(c>d);  //15>14

@@ -529,3 +529,25 @@ X-OR(^)---> if both values are same---> flase, else --> true
 
 NOT>AND>OR--->prioritization
 
+
+Type casting---> changing the datatype.
+
+
+
+Comparison operator
+____________________
+
+it is used to compare to values. results boolean values
+
+(==)---> loose equality(value must be same. but datatype is not considerable).
+
+(===)---> strict equality(checks datatype also)
+
+(<=)---> less than or equal to
+
+(>=)---> greater than or equal to.
+
+(<)---> less than
+
+(>)---> greater than.
+
