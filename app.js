@@ -19,18 +19,35 @@
 //   console.log("child");
 // }
 
+// BMI Calculator
 
-if(false){
-    console.log("If part");
-    
-}else if(false){
-    console.log("Else if part1");
-    
-}else if(false){
-    console.log("Else if part2");
+let weight = 50;
+let height = 1.8;
 
-}else if (false){
-    console.log("Else if part3");
-}else{
-    console.log("Else part");
+let BMI = weight / (height * height);
+
+console.log(BMI); 
+
+if (BMI < 14) {
+  console.log("consult doc");
+} else if (BMI < 18) {
+  console.log("under weight");
+} else if (BMI > 30) {
+  console.log("Visit Doc");
+} else if (BMI > 25) {
+  console.log("Obese");
+} else {
+  console.log("Just Correct");
 }
+
+
+
+let mark=90;
+
+// 90 or above 90--->A+
+// 80 to 89---->A
+// 70  to 79--->B+
+// 60 to 69---->B
+// 50 to 59---->C
+
+// below 50---> fail
