@@ -1,9 +1,36 @@
-let a = "10"; //number
-let b = "10"; //string
+// let a=10;
 
-// console.log(a==b);
+// if(a<10){
+//     console.log("surya");
+//     console.log("pratap");
+// }else{
+//     console.log("Livin");
+// }
 
-let c = 15;
-let d = 14;
+// let yes = prompt();
 
-console.log(c>d);  //15>14
+// console.log("yes:",typeof );
+
+// let userAge=17;
+
+// if (userAge>= 18) {
+//   console.log("Adult");
+// } else {
+//   console.log("child");
+// }
+
+
+if(false){
+    console.log("If part");
+    
+}else if(false){
+    console.log("Else if part1");
+    
+}else if(false){
+    console.log("Else if part2");
+
+}else if (false){
+    console.log("Else if part3");
+}else{
+    console.log("Else part");
+}

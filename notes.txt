@@ -551,3 +551,28 @@ it is used to compare to values. results boolean values
 
 (>)---> greater than.
 
+
+
+type casting----> changing the datatype. Number()
+
+
+Conditional Clause
+________________________
+
+used to execute code based on the conditions.
+
+1) if Statement 
+
+Executes a block of code if the condition is true.
+
+if(){
+    //block of code
+}
+
+2) else statement
+
+it will execute the code only if the condition applied in if clause is "false". always comes along with if statement.
+
+3) if else
+
+always comes along with if statement.it will execute the code only if the condition applied in if clause is "false" and the condition applied in itself is true
