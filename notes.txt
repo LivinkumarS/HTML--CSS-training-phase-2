@@ -576,3 +576,7 @@ it will execute the code only if the condition applied in if clause is "false". 
 3) if else
 
 always comes along with if statement.it will execute the code only if the condition applied in if clause is "false" and the condition applied in itself is true
+
+Nested If:
+-------------
+ an if statement inside another if.
