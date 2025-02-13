@@ -483,6 +483,19 @@ it is used to exit a function and send back the value to the caller.
 
 
 
+Objects 
+-----------
+it is just a collection of key-value pairs.
+
+{
+        key: value,
+        key2:value2,
+        key3:value3.......
+}
+
+Dot value--> objName.value
+Sqr bracket---> objName["key"]
+
 
 Variables
 ____________________
