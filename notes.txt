@@ -477,6 +477,10 @@ Arguments (or) parameter
 
 is a set of values we pass into a function.
 
+Return Keyword 
+------------------
+it is used to exit a function and send back the value to the caller.
+
 
 
 
