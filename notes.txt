@@ -444,6 +444,42 @@ ____________________
 8)Null
 
 
+Functions 
+---------------
+
+functions or just block of code, we can reuse it whenever we want.
+
+
+1. Function Declaration ("function")
+------------------------------------
+
+function name(){
+        // block of code.
+}
+
+2. Function Expression
+-----------------------------
+
+const name=function(){
+    // block of variable
+}
+
+3) Arrow function
+________________________
+
+const virat = () => {
+    // block of code
+};
+
+
+Arguments (or) parameter
+-------------------------
+
+is a set of values we pass into a function.
+
+
+
+
 Variables
 ____________________
 

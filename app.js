@@ -1,28 +1,44 @@
-let i = 11;
-
-//nested if
-
-// if (i < 10) {
-//   if (i < 5) {
-//     console.log("very less");
-//   } else {
-//     console.log("less");
-//   }
-// } else {
-//   console.log("Higher value");
+// function add(num1, num2) {
+//   console.log(num1 + num2);
 // }
 
-//else if
+// function mul(num1, num2) {
+//   console.log(num1 * num2);
+// }
 
-if (i < 5) {
-  console.log("very less");
-} else if (i <= 10) {
-  console.log("less");
-} else {
-  console.log("Higher value");
-}
+// function BMIcalc(weight, height) {
+// let BMI = weight / (height * height);
 
-// i<5---> print "very less"
-// 5,6,7,8,9,10---> print "less"
+// console.log(BMI);
 
-// 11,12...,10<i----> print "higher value"
+// if (BMI < 14) {
+//   console.log("consult doc");
+// } else if (BMI < 18) {
+//   console.log("under weight");
+// } else if (BMI > 30) {
+//   console.log("Visit Doc");
+// } else if (BMI > 25) {
+//   console.log("Obese");
+// } else {
+//   console.log("Just Correct");
+// }
+// }
+
+const BMIcalc = (weight, height) => {
+  let BMI = weight / (height * height);
+  console.log(BMI);
+  if (BMI < 14) {
+    console.log("consult doc");
+  } else if (BMI < 18) {
+    console.log("under weight");
+  } else if (BMI > 30) {
+    console.log("Visit Doc");
+  } else if (BMI > 25) {
+    console.log("Obese");
+  } else {
+    console.log("Just Correct");
+  }
+};
+
+BMIcalc(68, 1.8);
+BMIcalc(70, 1.2);
