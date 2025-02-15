@@ -439,9 +439,10 @@ ____________________
 
 4)functions
 5)objects
-6)undefined
-7)Nan
-8)Null
+6)Arrays
+7)undefined
+8)Nan
+9)Null
 
 
 Functions 
@@ -653,3 +654,19 @@ always comes along with if statement.it will execute the code only if the condit
 Nested If:
 -------------
  an if statement inside another if.
+
+
+
+
+ Loops
+ ____________________
+
+ used to execute a block of code again and again.
+
+ For Loop 
+ ----------
+ for---> keyword.
+
+ syntax---> for(init; condition; increment){
+        //block of code
+ }
