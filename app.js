@@ -1,5 +1,5 @@
 let person = {
-  name: "Pratap",
+  name: "Pratap Poojari",
   Role: "Developer",
   Company: "TCS",
   Qualification: "BE",
@@ -7,22 +7,21 @@ let person = {
   isMarried: false,
 
   printFullname: function () {
-    console.log("Pratap Poojari");
+    console.log(`His name is ${this.name} and his age is ${this.age}`);
   },
   printRole: () => {
     console.log("Developer in TCS");
   },
+
+  object: {
+    favMovie: "KGF",
+    favFood: "Biriyani",
+    innerObject: {
+      favCartoon: "Mr Been",
+    },
+  },
 };
 
+delete person.object.favFood;
 
-
-//Dot
-// console.log(person.name);
-// console.log(person.Qualification);
-
-// //sqr brackets
-// console.log(person["name"]);
-// console.log(person["Qualification"]);
-person.age--;
 person.printFullname();
-person.printRole();

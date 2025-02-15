@@ -496,6 +496,26 @@ it is just a collection of key-value pairs.
 Dot value--> objName.value
 Sqr bracket---> objName["key"]
 
+Deleting key in an object---> delete objName.key
+
+Nested Object 
+--------------
+
+nesting an object inside another object.
+
+{
+        key:{
+
+        }
+}
+
+This Keyword 
+-------------
+used to access a key inside that object itself
+
+
+Inserting a variable in a string `${varName}`
+
 
 Variables
 ____________________
