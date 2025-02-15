@@ -630,6 +630,28 @@ it is used to compare to values. results boolean values
 type casting----> changing the datatype. Number()
 
 
+
+Truthy and Falsy
+____________________
+
+Truthy: 
+-------
+       true
+       an obj,
+       an array,
+       any numbers other than 0. (-1,-2)
+       stings
+falsy:
+----------
+        false
+        undefined
+        null
+        Nan 
+        Number 0
+
+
+
+
 Conditional Clause
 ________________________
 
@@ -665,8 +687,21 @@ Nested If:
 
  For Loop 
  ----------
+
+when the number of iteration is known.
+
  for---> keyword.
 
  syntax---> for(init; condition; increment){
+        //block of code
+ }
+
+ while
+ ------
+ when the number of iteration isn't known.
+
+ keyword---> while
+
+ syntax--->while(condition){
         //block of code
  }
