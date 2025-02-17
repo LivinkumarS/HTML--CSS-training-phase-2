@@ -434,7 +434,7 @@ DataType:
 ____________________
 
 1)Number----> (Int, float). 0,1,2....-1,-2,-3,....  0.5,5.6.....
-2)String----> (character, word or sentence). "" or ''. char-->'a','b'.."yes","no","I love you".
+2)String----> (character, word or sentence). "" or '', concat--> "+" "," ,char-->'a','b'.."yes","no","I love you".
 3)boolean----> true or false.(1 or 0)
 
 4)functions
@@ -516,6 +516,36 @@ used to access a key inside that object itself
 
 
 Inserting a variable in a string `${varName}`
+
+
+Arrays(List)
+____________________
+arrays  is used to hold multiple datatypes in single variable.
+
+synatax---> [ value1, value2, value3...... ]
+
+squar bracke> index number to access individual elements.
+
+Array Methods
+---------------
+
+Push---> add an element in an array at the end.
+
+pop---> which is used to remove the last element.
+
+unshift----> add an element at the start of an array.
+
+shift----> remove an element from the starting
+
+concat(concatination)---> concat(join) the two list.
+
+join---> used to join all the lements and result a string.
+ex:[1,2,3],("-"), "1-2-3"
+
+slice---> used to extract part of an array.
+splice--> will alter the original array itself.(index, no of elements, value of an element(optional))
+
+indexOf--> used to find index of any alements
 
 
 Variables
