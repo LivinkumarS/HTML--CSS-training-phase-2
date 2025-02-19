@@ -1,58 +1,48 @@
-// Array
+// Map Method
 
-let arr2 = [5, 6, 7, 8];
+// let arr = [1, 2, 3, 4, 5, 6]; //add 2 (6 elements)
 
-// console.log(arr1[12]["role"]);
-// arr1[0]=10
-// console.log(arr1);
+// ["0:1","1:2"...."5:6"]
 
-// arr1[14]()
-
-// Array Methods
-
-// Push
-
-// arr1.push(4);
-// arr2.push(10);
-
-// arr1.push(55);
-
-// arr1.pop();
-// arr2.pop();
-
-// arr1.unshift(10)
-// arr2.unshift("string")
-
-// arr1.shift();
-// arr2.shift();
-
-// let str1="surya"
-// let str2="kumar"
-
-// let newArr = arr1.concat(arr2);
-
-// console.log(arr1);
-// console.log(arr2);
+// const newArr=arr.map((element,index)=>{
+//     return `${index}:${element}`
+// })
 
 // console.log(newArr);
 
-// console.log(arr1.join(","));
+// let arr2 = [3, 324, 324, 6464, 35, 46, 45, 356]; // *8, /6
 
-// console.log(arr1.slice(4,8));
+// let newArr=arr.map((ele,ind)=>{
+//     return [ele,ele+1,ele+2]
+// })
+// console.log(newArr);
 
-// arr1.splice(3,2,"Added elements")
+// const newArr = arr2.map((number, ind) => {
+//   return (number * 8) / 6;
+// });
 
-// arr2.splice(1,3,"added elements")
+// console.log(newArr);
 
-// arr1.splice(4,1,100)
+// let nameArr = ["Livin ", "Surya ", "chandra "];
 
-// console.log(arr1);
-// console.log(arr2);
+// ["kumar","kumar","kumar"]
 
-let arr1 = [1, 2, 3, 32, "add", 4, 32, 34, 43, 35432, 32];
+// let newNames = nameArr.map((name, index) => {
+//   return `${name}kumar`;
+// });
 
-arr1.splice(4, 1, "add");
+// console.log(newNames);
 
-console.log(arr1.indexOf(100));  //-1
+// Filter
 
+let arr = [
+  2, 3, 3, 5, 35, 56, 35, 57, 7865, 65, 5, 56, 54, 34, 324, 54, 56, 534,
+]; //[6,7,8]
 
+// [6,7,8]
+
+const newArr = arr.filter((ele, ind) => {
+  return ele % 2 === 1;
+});
+
+console.log(newArr);

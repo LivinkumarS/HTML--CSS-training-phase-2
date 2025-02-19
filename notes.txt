@@ -545,8 +545,13 @@ ex:[1,2,3],("-"), "1-2-3"
 slice---> used to extract part of an array.
 splice--> will alter the original array itself.(index, no of elements, value of an element(optional))
 
-indexOf--> used to find index of any alements
+indexOf--> used to find index of any alements.
 
+
+
+Map---> it creates a new array by applying a function to every element.  [1,2,3,4,5] ---> [3,4,5,6,7] (adding 2 is the function)
+
+Filter---> creates a new array containing all the elements that passes a test. [1,2,3,4,5] ---> [2,4] (even numbers is test) (condition). (arrow function should return a boolean)
 
 Variables
 ____________________
