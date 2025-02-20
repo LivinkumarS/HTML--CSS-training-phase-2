@@ -665,6 +665,11 @@ it is used to compare to values. results boolean values
 (>)---> greater than.
 
 
+Ternary Operator 
+____________________
+
+syntax:  condition ? first_command : second_command
+
 
 type casting----> changing the datatype. Number()
 

@@ -1,69 +1,11 @@
-// Map Method
+//Ternary  Operator
 
-// let arr = [1, 2, 3, 4, 5, 6]; //add 2 (6 elements)
+let num = 10;
 
-// ["0:1","1:2"...."5:6"]
+// -2 < -1
+//   ? console.log("Yes The Number Is Lesser")
+//   : console.log("No It Isn't Lesser");
 
-// const newArr=arr.map((element,index)=>{
-//     return `${index}:${element}`
-// })
+let ans = num < 10 ? "lesser" : "Greater";
 
-// console.log(newArr);
-
-// let arr2 = [3, 324, 324, 6464, 35, 46, 45, 356]; // *8, /6
-
-// let newArr=arr.map((ele,ind)=>{
-//     return [ele,ele+1,ele+2]
-// })
-// console.log(newArr);
-
-// const newArr = arr2.map((number, ind) => {
-//   return (number * 8) / 6;
-// });
-
-// console.log(newArr);
-
-// let nameArr = ["Livin ", "Surya ", "chandra "];
-
-// ["kumar","kumar","kumar"]
-
-// let newNames = nameArr.map((name, index) => {
-//   return `${name}kumar`;
-// });
-
-// console.log(newNames);
-
-// Filter
-
-// let arr = [
-//   2, 3, 3, 5, 35, 56, 35, 57, 7865, 65, 5, 56, 54, 34, 324, 54, 56, 534,
-// ]; //[6,7,8]
-
-// [6,7,8]
-
-// const newArr = arr.filter((ele, ind) => {
-//   return ele % 2 === 1;
-// });
-
-// console.log(newArr);
-
-// Reduce
-
-const arr = [1, 2, 3, 3, 4, 324, 4, 324, 67, 34, 4, 234, 54, 234, 4356, 1];
-
-//0 ---> acc= 1
-//1 ---> acc=1
-//2 ---> acc=2
-//3 ---> acc=6
-
-// let answer = arr.reduce((acc, ele) => {
-//   return acc + ele;
-// }, 1);
-
-// console.log(answer);
-
-let newArr = arr.filter((ele, index) => {
-  return index;
-});
-
-console.log(newArr);
+console.log(ans);
