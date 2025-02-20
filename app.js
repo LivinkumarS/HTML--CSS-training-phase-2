@@ -35,14 +35,35 @@
 
 // Filter
 
-let arr = [
-  2, 3, 3, 5, 35, 56, 35, 57, 7865, 65, 5, 56, 54, 34, 324, 54, 56, 534,
-]; //[6,7,8]
+// let arr = [
+//   2, 3, 3, 5, 35, 56, 35, 57, 7865, 65, 5, 56, 54, 34, 324, 54, 56, 534,
+// ]; //[6,7,8]
 
 // [6,7,8]
 
-const newArr = arr.filter((ele, ind) => {
-  return ele % 2 === 1;
+// const newArr = arr.filter((ele, ind) => {
+//   return ele % 2 === 1;
+// });
+
+// console.log(newArr);
+
+// Reduce
+
+const arr = [1, 2, 3, 3, 4, 324, 4, 324, 67, 34, 4, 234, 54, 234, 4356, 1];
+
+//0 ---> acc= 1
+//1 ---> acc=1
+//2 ---> acc=2
+//3 ---> acc=6
+
+// let answer = arr.reduce((acc, ele) => {
+//   return acc + ele;
+// }, 1);
+
+// console.log(answer);
+
+let newArr = arr.filter((ele, index) => {
+  return index;
 });
 
 console.log(newArr);

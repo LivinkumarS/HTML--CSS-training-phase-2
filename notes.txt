@@ -553,6 +553,10 @@ Map---> it creates a new array by applying a function to every element.  [1,2,3,
 
 Filter---> creates a new array containing all the elements that passes a test. [1,2,3,4,5] ---> [2,4] (even numbers is test) (condition). (arrow function should return a boolean)
 
+Reduce---> is used to recuce an array to a single value.
+ex: [1,2,3,4,5] ---> 120 (function is mul)
+accumulator---> stores the current data.
+
 Variables
 ____________________
 
