@@ -1,11 +1,26 @@
-//Ternary  Operator
+//Undefined
 
-let num = 10;
+// let a;
 
-// -2 < -1
-//   ? console.log("Yes The Number Is Lesser")
-//   : console.log("No It Isn't Lesser");
+// console.log(a);
 
-let ans = num < 10 ? "lesser" : "Greater";
+// let arr=[1,2,3]
 
-console.log(ans);
+// console.log(arr[3]);
+
+// Null
+
+// let a=null;
+// console.log(null);
+
+// NaN
+
+// console.log(Number("this")); // cannot be converted
+
+let num1 = Number("hi");   //not supposed to be equal to other Nan
+let num2 = Number("hello");
+let num3; //undefined
+let num4=null;
+
+
+console.log(isNaN()); //Nan=true, false

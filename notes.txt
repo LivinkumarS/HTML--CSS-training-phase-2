@@ -557,6 +557,24 @@ Reduce---> is used to recuce an array to a single value.
 ex: [1,2,3,4,5] ---> 120 (function is mul)
 accumulator---> stores the current data.
 
+
+
+Undefined --> Not Defined 
+________________________________
+
+A variable that has been declared, but not assigned a value will result undefined.
+
+Null 
+____________________
+it represents the intentional absence.
+
+Nan(Not a Number)--> Represents Invalid Number Operations.
+________________________________
+
+dont have to be equal.( to check whether the variable is Nan use the method "isNan")
+
+
+
 Variables
 ____________________
 
