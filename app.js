@@ -1,15 +1,7 @@
-// const head2 = document.querySelector("h2");
+const h1=document.querySelector("h1")
 
-// // console.log(head2.textContent);
+// console.log(h1.getAttribute("class"));
 
-// head2.textContent = "Mathagaja Raja";
+h1.setAttribute("id","head1")
 
-const para=document.querySelector("#para1")
-
-// para.textContent="Hello Hi Vanakam"
-
-// console.log(para.innerHTML);
-
-
-para.innerHTML="<span>1)Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia, ratione.</span>"
-
+h1.removeAttribute("class")

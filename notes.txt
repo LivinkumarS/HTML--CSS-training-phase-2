@@ -827,3 +827,10 @@ Text Modifying
 ----------------
 
 syntax---> 1)element.textContent, 2) innerHTML
+
+Atrributes Modification
+------------------------
+
+1)element.getAttribute("attrName")
+2)element.setAttribute("attrName","value")
+3)element.removeAttribute("attrName")
