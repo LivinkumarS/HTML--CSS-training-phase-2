@@ -1,26 +1,15 @@
-//Id name selection
+// const head2 = document.querySelector("h2");
 
-// const para1 = document.getElementById("para1");
-// console.log(para1);
+// // console.log(head2.textContent);
 
-//class name selection
+// head2.textContent = "Mathagaja Raja";
 
-// const paraList = document.getElementsByClassName("para");
-// console.log(paraList);
+const para=document.querySelector("#para1")
 
-//class name selection
+// para.textContent="Hello Hi Vanakam"
 
-// const paraList = document.getElementsByTagName("p");
-// console.log(paraList);
+// console.log(para.innerHTML);
 
-// query selector
 
-// const para1=document.querySelector(".para")
-// console.log(para1);
-
-// query selector All
-
-// const para1 = document.querySelectorAll("div>#para1");
-// console.log(para1);
-
+para.innerHTML="<span>1)Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia, ratione.</span>"
 

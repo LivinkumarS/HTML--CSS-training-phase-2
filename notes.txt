@@ -818,3 +818,12 @@ method name---> querySelectorAll("query")
 always return multiple elements
 const para1=document.querySelectorAll(".para")
 console.log(para1);
+
+
+Modifying Elements in DOM 
+________________________________
+
+Text Modifying
+----------------
+
+syntax---> 1)element.textContent, 2) innerHTML
