@@ -418,7 +418,7 @@ Dynamically Typed Language.
 Setting Up Development Environment
 ____________________________________
 
-.js---> is the extexsion fo JavaScript.
+.js---> is the extexsion for JavaScript.
 
 
 commenting---> //
@@ -767,3 +767,54 @@ when the number of iteration is known.
  syntax--->while(condition){
         //block of code
  }
+
+
+
+ DOM- Document Object Model.
+ ________________________________
+
+ The DOM is a programming interface for web pages. it represents the structure of web page as a tree-like structure. in this tree, all the HTML elements will be considered as a node.
+
+ using JS we can interact and modify the DOM dynamically.
+
+
+
+ Selecting Elements:
+ ____________________
+
+ Using ID name
+ --------------
+
+ method name---> .getElementById("Id name");
+ const para1 = document.getElementById("para1");
+ console.log(para1);
+
+
+Using Class Name 
+------------------
+
+method name---> .getElementByClassName("classname");
+it will return HTML collection.
+const paraList = document.getElementsByClassName("para");
+console.log(paraList);
+
+Using Tag Name
+--------------
+
+method name--> .getElementByTagName("Tagname")
+const paraList = document.getElementsByTagName("p");
+console.log(paraList);
+
+Query Selector
+----------------
+method name---> querySelector("query")
+always return only one element
+const para1=document.querySelector(".para")
+console.log(para1);
+
+Query Selector
+----------------
+method name---> querySelectorAll("query")
+always return multiple elements
+const para1=document.querySelectorAll(".para")
+console.log(para1);

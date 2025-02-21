@@ -1,26 +1,26 @@
-//Undefined
+//Id name selection
 
-// let a;
+// const para1 = document.getElementById("para1");
+// console.log(para1);
 
-// console.log(a);
+//class name selection
 
-// let arr=[1,2,3]
+// const paraList = document.getElementsByClassName("para");
+// console.log(paraList);
 
-// console.log(arr[3]);
+//class name selection
 
-// Null
+// const paraList = document.getElementsByTagName("p");
+// console.log(paraList);
 
-// let a=null;
-// console.log(null);
+// query selector
 
-// NaN
+// const para1=document.querySelector(".para")
+// console.log(para1);
 
-// console.log(Number("this")); // cannot be converted
+// query selector All
 
-let num1 = Number("hi");   //not supposed to be equal to other Nan
-let num2 = Number("hello");
-let num3; //undefined
-let num4=null;
+// const para1 = document.querySelectorAll("div>#para1");
+// console.log(para1);
 
 
-console.log(isNaN()); //Nan=true, false
