@@ -834,3 +834,7 @@ Atrributes Modification
 1)element.getAttribute("attrName")
 2)element.setAttribute("attrName","value")
 3)element.removeAttribute("attrName")
+
+Changing Styles
+---------------
+elemet.style.propertyName="value";

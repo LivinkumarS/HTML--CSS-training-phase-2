@@ -1,7 +1,9 @@
-const h1=document.querySelector("h1")
+const h2 = document.querySelector("h2");
 
-// console.log(h1.getAttribute("class"));
+const num = Number(prompt("Type a Number:"));
 
-h1.setAttribute("id","head1")
-
-h1.removeAttribute("class")
+if (num > 10) {
+  h2.style.backgroundColor = "red";
+  h2.style.fontSize = "larger";
+  h2.style.color = "blue";
+}
