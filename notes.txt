@@ -868,3 +868,9 @@ parent.replaceChild(new,old)
 
 Traversing the DOM 
 -------------------
+
+.parentElement
+.firstElementChild
+.lastElementChild
+.previousElementSibling
+.nextElementSibling

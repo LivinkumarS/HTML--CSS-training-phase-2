@@ -1,26 +1,8 @@
-// const body = document.querySelector("body");
+// const h1 = document.querySelector("h1");
 
-// const para1 = document.createElement("span");
+// console.log(h1.parentElement.firstElementChild);
+// console.log(h1.parentElement.lastElementChild);
 
-// para1.textContent = "Hello World";
+const list = document.querySelector(".foodList");
 
-// para1.style.color = "aqua";
-
-// body.appendChild(para1);
-
-// const h2 = document.createElement("h2");
-// h2.textContent = "I Like You";
-
-const h1 = document.querySelector("h1");
-
-// body.insertBefore(h2, h1);
-
-// h1.parentElement.removeChild(h1);
-
-// h1.remove();
-
-const h2 = document.createElement("h2");
-h2.textContent = "Be Happy!";
-h2.style.color = "green";
-
-h1.parentElement.replaceChild(h2, h1);
+console.log(list.firstElementChild.nextElementSibling.nextElementSibling.previousElementSibling);
