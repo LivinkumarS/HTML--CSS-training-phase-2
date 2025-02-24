@@ -845,3 +845,26 @@ Class Name Manipulation
 1) .className.add("className")
 2) .className.remove("className")
 3) .className.toggle("className"); toggling--> inverting
+
+Creating and Inserting an element 
+----------------------------------
+Creating:
+ .createElement("tagName")
+Inserting:
+.appendChild(element)
+.insertBefore(element, ref)
+
+
+Removing Elements 
+-------------------
+.remove()
+parent.removeChild(ref)
+
+Replacing
+--------------
+
+parent.replaceChild(new,old)
+
+
+Traversing the DOM 
+-------------------
