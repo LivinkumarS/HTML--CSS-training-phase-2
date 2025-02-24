@@ -1,17 +1,6 @@
-const height = Number(prompt("Enter Your Height"));
+const head1 = document.querySelector("h1");
 
-const h1=document.querySelector("h1")
+head1.classList.add("red");
+head1.classList.remove("green");
 
-if(height>180){
-    h1.textContent="Over Height"
-    h1.style.backgroundColor="red"
-}else if(height>160){
-    h1.textContent="Correct Heght"
-    h1.style.backgroundColor="green"
-}else{
-    h1.textContent="Under height"
-    h1.style.backgroundColor="red"
-}
-
-
-//create BMI Calculator.
+head1.classList.toggle("green") //it will be added

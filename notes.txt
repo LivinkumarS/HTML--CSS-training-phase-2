@@ -838,3 +838,10 @@ Atrributes Modification
 Changing Styles
 ---------------
 elemet.style.propertyName="value";
+
+Class Name Manipulation
+-----------------------
+
+1) .className.add("className")
+2) .className.remove("className")
+3) .className.toggle("className"); toggling--> inverting
