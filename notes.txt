@@ -529,6 +529,8 @@ squar bracke> index number to access individual elements.
 Array Methods
 ---------------
 
+arr,length---> total length of an array
+
 Push---> add an element in an array at the end.
 
 pop---> which is used to remove the last element.

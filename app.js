@@ -1,17 +1,9 @@
 // Eventlisteners
 
-const h1 = document.querySelector(".head");
-const h2 = document.querySelector(".head1");
-const h3 = document.querySelector(".head2");
+const allLi = document.querySelectorAll("li"); // will not return element. list of elements
 
-h1.addEventListener("click", (e) => {
-  console.log(e.target);
-});
-
-h2.addEventListener("click", (e) => {
-  console.log(e.target);
-});
-
-h3.addEventListener("click", (e) => {
-  console.log(e.target);
-});
+for (let i = 0; i < allLi.length; i++) {
+  allLi[i].addEventListener("click", () => {
+    console.log("I Like You");
+  });
+}
