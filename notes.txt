@@ -874,3 +874,15 @@ Traversing the DOM
 .lastElementChild
 .previousElementSibling
 .nextElementSibling
+
+
+Event Listening
+____________________
+
+used to handle events like clicks, key presses, mouse movements and more...(click,mouseOver,mouseOut,keyUp)
+
+element.addEventListener("event name", ()=>{})
+
+caalbck fnc can have one parameter.(event)
+
+when we want to get access to the element that is reason for the current event.

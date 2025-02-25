@@ -1,8 +1,17 @@
-// const h1 = document.querySelector("h1");
+// Eventlisteners
 
-// console.log(h1.parentElement.firstElementChild);
-// console.log(h1.parentElement.lastElementChild);
+const h1 = document.querySelector(".head");
+const h2 = document.querySelector(".head1");
+const h3 = document.querySelector(".head2");
 
-const list = document.querySelector(".foodList");
+h1.addEventListener("click", (e) => {
+  console.log(e.target);
+});
 
-console.log(list.firstElementChild.nextElementSibling.nextElementSibling.previousElementSibling);
+h2.addEventListener("click", (e) => {
+  console.log(e.target);
+});
+
+h3.addEventListener("click", (e) => {
+  console.log(e.target);
+});
