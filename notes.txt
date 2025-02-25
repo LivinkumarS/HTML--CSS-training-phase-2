@@ -888,3 +888,11 @@ element.addEventListener("event name", ()=>{})
 caalbck fnc can have one parameter.(event)
 
 when we want to get access to the element that is reason for the current event.
+
+
+mini project: adding and removing fav foods.
+
+HTML event Listeners.
+----------------------
+
+onClick, onchange...!
