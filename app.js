@@ -1,16 +1,12 @@
-const input = document.querySelector("#food-name");
-const addBtn = document.querySelector(".add-btn");
-const ul = document.querySelector("ul");
+// const h1 = document.querySelector("h1");
 
-addBtn.addEventListener("click", () => {
-  const newLiTag = document.createElement("li");
-  newLiTag.innerHTML = `<div>${input.value} <button onclick="removeELement(event)">x</button></div>`;
-  ul.appendChild(newLiTag);
-  input.value = "";
-});
+// h1.addEventListener("click", () => {
+//   console.log("clicked");
+//   console.log("Something");
+// });
 
-const allRemBtn = document.querySelectorAll(".rem-btn");
-
-function removeELement(e){
-    e.target.parentElement.parentElement.remove()
+function anything() {
+  console.log("clicked");
+  console.log("Something");
 }
+
