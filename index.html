@@ -11,13 +11,22 @@
 </head>
 
 
+
 <body>
 
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus voluptatum dolores corporis cum veritatis! At aliquam eaque laboriosam illum consequuntur dignissimos delectus sit aspernatur repellat rerum, quod doloribus iure labore.</p>
 
-    <h1 onclick="anything()">Head</h1>
+    <h1>Fav Foods</h1>
 
+    <label for="food-name">Food Name</label>
+    <input type="text" name="name" id="food-name">
+    <button class="add-btn">add</button>
 
+    <h2>List Of Fav Foods</h2>
+
+    <ul>
+        <div>Biriyani <button onclick="delElement(event)">x</button></div>
+
+    </ul>
 
     <script src="./app.js"></script>
 </body>

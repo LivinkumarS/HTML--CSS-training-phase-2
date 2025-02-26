@@ -895,4 +895,6 @@ mini project: adding and removing fav foods.
 HTML event Listeners.
 ----------------------
 
-onClick, onchange...!
+onClick, onchange...! default parameter name="event", event.target---> refers to actual element that trggered the function
+
+inputTag.value="the text we entered in it"

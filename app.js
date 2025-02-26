@@ -1,12 +1,23 @@
-// const h1 = document.querySelector("h1");
+const addBtn = document.querySelector(".add-btn");
+const any = document.querySelector("#food-name");
+const ul = document.querySelector("ul");
 
-// h1.addEventListener("click", () => {
-//   console.log("clicked");
-//   console.log("Something");
-// });
 
-function anything() {
-  console.log("clicked");
-  console.log("Something");
+
+addBtn.addEventListener("click", () => {
+
+  if(any.value===""){
+    return alert("you cannot add empty string!")
+  }
+
+  const newElement = document.createElement("div");
+  newElement.innerHTML =
+    any.value + ' <button onclick="delElement(event)">x</button>';
+
+  ul.appendChild(newElement);
+  any.value = "";
+});
+
+function delElement(event) {
+  event.target.parentElement.remove();
 }
-
