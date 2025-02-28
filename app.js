@@ -1,23 +1,19 @@
-const addBtn = document.querySelector(".add-btn");
-const any = document.querySelector("#food-name");
-const ul = document.querySelector("ul");
+const btn = document.querySelector("button");
+const inp = document.querySelector("#year");
+const h2=document.querySelector("h2")
 
-
-
-addBtn.addEventListener("click", () => {
-
-  if(any.value===""){
-    return alert("you cannot add empty string!")
+btn.addEventListener("click", () => {
+  if (inp.value % 100 == 0) {
+    if (inp.value % 400 == 0) {
+      h2.textContent="Leap Year"
+    } else {
+      h2.textContent="Non Leap Year"
+    }
+  } else {
+    if (inp.value % 4 === 0) {
+      h2.textContent="Leap Year"
+    } else {
+      h2.textContent="Non Leap Year"
+    }
   }
-
-  const newElement = document.createElement("div");
-  newElement.innerHTML =
-    any.value + ' <button onclick="delElement(event)">x</button>';
-
-  ul.appendChild(newElement);
-  any.value = "";
 });
-
-function delElement(event) {
-  event.target.parentElement.remove();
-}

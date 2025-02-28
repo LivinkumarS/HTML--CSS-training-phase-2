@@ -898,3 +898,15 @@ HTML event Listeners.
 onClick, onchange...! default parameter name="event", event.target---> refers to actual element that trggered the function
 
 inputTag.value="the text we entered in it"
+
+
+
+Leap or Non Leap--->
+
+if year completely divisible by 100. then that should be divisible by 400 too.
+
+if year cannot be divisible by 100. that should be divisible by 4.
+
+1888---->Leap. 1897--->non-leap.
+1300-->non-leap, 1400-->non-leap, 1600-->leap, 2020-->leap
+
